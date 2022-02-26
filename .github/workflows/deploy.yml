@@ -22,4 +22,4 @@ jobs:
         script: |
           cd /data/nginx/
           git fetch && git pull
-          sh ./data_link/nginx/refresh-nginx.sh
+          sh ./refresh-nginx.sh
